@@ -1,0 +1,10 @@
+./boot-client-application/.idea/
+./boot-resource-server/.idea/
+
+./boot-client-application/src/test/
+./boot-resource-server/src/test/
+
+./boot-client-application/target/
+./boot-resource-server/target/
+
+*.iml
