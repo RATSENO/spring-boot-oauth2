@@ -31,6 +31,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\project\spring-oauth2\boot-client-application\src\main\webapp\WEB-INF\jsp" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="SpringBootFormHandingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -64,25 +70,67 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="446" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1599096333067">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1599096333067" />
     <state x="423" y="228" width="435" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599030290962">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="423" y="228" width="435" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720@0.0.1280.720" timestamp="1599030290962" />
-    <state width="1236" height="2" key="GridCell.Tab.0.bottom" timestamp="1599032815685">
+    <state width="1236" height="135" key="GridCell.Tab.0.bottom" timestamp="1599098604124">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="2" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599032815685" />
-    <state width="1236" height="2" key="GridCell.Tab.0.center" timestamp="1599032815684">
+    <state width="1236" height="135" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599098604124" />
+    <state width="1236" height="135" key="GridCell.Tab.0.center" timestamp="1599098604123">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="2" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1599032815684" />
-    <state width="1236" height="2" key="GridCell.Tab.0.left" timestamp="1599032815684">
+    <state width="1236" height="135" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1599098604123" />
+    <state width="1236" height="135" key="GridCell.Tab.0.left" timestamp="1599098604123">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="2" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1599032815684" />
-    <state width="1236" height="2" key="GridCell.Tab.0.right" timestamp="1599032815685">
+    <state width="1236" height="135" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1599098604123" />
+    <state width="1236" height="135" key="GridCell.Tab.0.right" timestamp="1599098604123">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="2" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599032815685" />
+    <state width="1236" height="135" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599098604123" />
+    <state width="1236" height="135" key="GridCell.Tab.1.bottom" timestamp="1599098604124">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="135" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599098604124" />
+    <state width="1236" height="135" key="GridCell.Tab.1.center" timestamp="1599098604124">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="135" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1599098604124" />
+    <state width="1236" height="135" key="GridCell.Tab.1.left" timestamp="1599098604124">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="135" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1599098604124" />
+    <state width="1236" height="135" key="GridCell.Tab.1.right" timestamp="1599098604124">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="135" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1599098604124" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ratseno/controllers/EmployeeController.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="employeeArray" />
+        <watch expression="model" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

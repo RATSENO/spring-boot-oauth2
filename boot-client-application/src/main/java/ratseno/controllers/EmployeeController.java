@@ -1,6 +1,8 @@
 package ratseno.controllers;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.springframework.http.*;
 import org.springframework.stereotype.Controller;
@@ -10,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
+import ratseno.model.Employee;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -25,10 +28,10 @@ public class EmployeeController {
     @RequestMapping(value = "/showEmployees", method = RequestMethod.GET)
     public ModelAndView showEmployees(@RequestParam("code") String code)throws JsonProcessingException, IOException {
         ResponseEntity<String> response = null;
-        System.out.println("Authorization Code------"+code);
+        System.out.println("Authorization Ccode------" + code);
 
         RestTemplate restTemplate = new RestTemplate();
-        // According OAuth documentation we need to send the client id and secret key in the header for authentication
+
         String credentials = "ratseno:secret";
         String encodedCredentials = new String(Base64.encodeBase64(credentials.getBytes()));
 
@@ -44,8 +47,27 @@ public class EmployeeController {
         access_token_url += "&redirect_uri=http://localhost:8090/showEmployees";
 
         response = restTemplate.exchange(access_token_url, HttpMethod.POST, request, String.class);
+
         System.out.println("Access Token Response ---------" + response.getBody());
 
-        return null;
+        // Get the Access Token From the recieved JSON response
+        ObjectMapper mapper = new ObjectMapper();
+        JsonNode node = mapper.readTree(response.getBody());
+        String token = node.path("access_token").asText();
+
+        String url = "http://localhost:8080/user/getEmployeesList";
+
+        // Use the access token for authentication
+        HttpHeaders headers1 = new HttpHeaders();
+        headers1.add("Authorization", "Bearer " + token);
+        HttpEntity<String> entity = new HttpEntity<>(headers1);
+
+        ResponseEntity<Employee[]> employees = restTemplate.exchange(url, HttpMethod.GET, entity, Employee[].class);
+        System.out.println(employees);
+        Employee[] employeeArray = employees.getBody();
+
+        ModelAndView model = new ModelAndView("showEmployees");
+        model.addObject("employees", Arrays.asList(employeeArray));
+        return model;
     }
 }
