@@ -26,6 +26,9 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ratseno/Application.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ratseno/controller/TestController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ratseno/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ratseno/controller/TestController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../boot-client-application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot-client-application/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../boot-resource-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot-resource-server/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -60,6 +63,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
