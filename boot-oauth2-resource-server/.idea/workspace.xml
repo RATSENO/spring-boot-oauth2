@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dbe6689-97b2-406a-ac6b-10a89601bf63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../boot-client-application/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../boot-oauth2-authorization-server/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../boot-oauth2-authorization-server/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../boot-oauth2-authorization-server/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../boot-oauth2-authorization-server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../boot-oauth2-authorization-server/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../boot-oauth2-authorization-server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../boot-oauth2-authorization-server/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../boot-oauth2-authorization-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../boot-oauth2-authorization-server/src/main/java/com/ratseno/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../boot-oauth2-authorization-server/src/main/java/com/ratseno/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ratseno/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ratseno/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ratseno/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ratseno/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../boot-client-application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot-client-application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../boot-resource-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot-resource-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot-oauth2-authorization-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot-oauth2-authorization-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,5 +71,23 @@
       <updated>1599106444067</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1236" height="176" key="GridCell.Tab.0.bottom" timestamp="1599110683110">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599110683110" />
+    <state width="1236" height="176" key="GridCell.Tab.0.center" timestamp="1599110683110">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1599110683110" />
+    <state width="1236" height="176" key="GridCell.Tab.0.left" timestamp="1599110683110">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1599110683110" />
+    <state width="1236" height="176" key="GridCell.Tab.0.right" timestamp="1599110683110">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599110683110" />
   </component>
 </project>
